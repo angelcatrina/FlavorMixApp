@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/hero_overlay.xml -->
+<!-- Overlay gradient gelap dari kiri ke kanan agar teks terbaca di atas foto -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="linear"
+        android:angle="0"
+        android:startColor="#CC1D352A"
+        android:centerColor="#881D352A"
+        android:endColor="#331D352A"/>
+</shape>
