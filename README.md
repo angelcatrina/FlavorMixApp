@@ -13,7 +13,7 @@ Aplikasi resep masakan Android yang memungkinkan pengguna mencari, menjelajahi, 
 
 ## ✨ Fitur
 
-- Pencarian resep berdasarkan judul
+- Pencarian resep berdasarkan judul dan kategori
 - Filter resep cepat (< 20 menit) dan rating tertinggi
 - Detail resep lengkap: bahan, cara membuat, dan nilai gizi
 - Simpan resep ke favorit
@@ -141,7 +141,7 @@ FlavorMix/
 
 1. Download source code dari GitHub:
    ```bash
-   git clone https://github.com/username/FlavorMix.git
+   git clone https://github.com/angelcatrina/FlavorMixApp.git
    ```
    Atau klik tombol **Code → Download ZIP** lalu extract ke folder komputer kamu.
 
