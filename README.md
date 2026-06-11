@@ -3,7 +3,7 @@ Aplikasi resep masakan Android yang memungkinkan pengguna mencari, menjelajahi, 
 
 ---
 
-## 📸 Tampilan Aplikasi
+## Tampilan Aplikasi
 
 | Beranda | Detail | Pencarian | Favorit |
 |--------|---------|-----------|--------|
@@ -11,7 +11,7 @@ Aplikasi resep masakan Android yang memungkinkan pengguna mencari, menjelajahi, 
 
 ---
 
-## ✨ Fitur
+##  Fitur
 
 - Pencarian resep berdasarkan judul dan kategori
 - Filter resep cepat (< 20 menit) dan rating tertinggi
@@ -165,7 +165,7 @@ FlavorMix/
 
 ---
 
-## 🚀 Cara Penggunaan
+##  Cara Penggunaan
 
 1. **Buka aplikasi** — Splash screen muncul sebentar lalu masuk ke beranda
 2. **Jelajahi resep** — Beranda menampilkan resep populer berdasarkan kategori (All, Breakfast, Lunch, Dinner, Dessert)
@@ -178,7 +178,7 @@ FlavorMix/
 
 ---
 
-## 👤 Developer
+## Developer
 
 | | |
 |---|---|
