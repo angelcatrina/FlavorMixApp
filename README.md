@@ -1,6 +1,4 @@
 # 🍳 FlavorMix
-
----
 **FlavorMix** adalah aplikasi resep masakan Android yang memungkinkan pengguna untuk mencari, menjelajahi, dan menyimpan resep favorit mereka. Aplikasi ini menggunakan API Tasty untuk menampilkan ribuan resep lezat dari seluruh dunia.
 
 ---
