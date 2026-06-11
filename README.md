@@ -1,24 +1,6 @@
 # 🍳 FlavorMix
 
-<p align="center">
-  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" width="120" alt="FlavorMix Logo"/>
-</p>
-
-<p align="center">
-  <strong>Temukan dan simpan resep favoritmu dengan mudah</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-green?style=flat-square&logo=android"/>
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=flat-square&logo=java"/>
-  <img src="https://img.shields.io/badge/Min%20SDK-21-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Target%20SDK-34-blue?style=flat-square"/>
-</p>
-
 ---
-
-## 📱 Tentang Aplikasi
-
 **FlavorMix** adalah aplikasi resep masakan Android yang memungkinkan pengguna untuk mencari, menjelajahi, dan menyimpan resep favorit mereka. Aplikasi ini menggunakan API Tasty untuk menampilkan ribuan resep lezat dari seluruh dunia.
 
 ---
