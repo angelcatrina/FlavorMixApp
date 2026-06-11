@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F5F0">
-
+    android:background="?android:attr/colorBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -24,7 +23,6 @@
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Large"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-
             <ImageView
                 android:id="@+id/imgHero"
                 android:layout_width="match_parent"
@@ -32,9 +30,9 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/placeholder_recipe"
                 android:fitsSystemWindows="true"
+                android:contentDescription="@string/desc_hero_image"
                 app:layout_collapseMode="parallax"
                 app:layout_collapseParallaxMultiplier="0.7"/>
-
 
             <View
                 android:layout_width="match_parent"
@@ -52,7 +50,6 @@
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
-
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scrollContent"
@@ -76,7 +73,7 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="6dp"
-                app:cardBackgroundColor="@android:color/white">
+                app:cardBackgroundColor="?attr/colorSurface">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -84,17 +81,15 @@
                     android:orientation="vertical"
                     android:padding="20dp">
 
-
                     <TextView
                         android:id="@+id/tvTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Judul Resep"
+                        android:text="@string/label_judul_resep"
                         android:textSize="22sp"
                         android:textStyle="bold"
-                        android:textColor="#1A1A1A"
+                        android:textColor="?attr/colorOnSurface"
                         android:lineSpacingExtra="2dp"/>
-
 
                     <View
                         android:layout_width="48dp"
@@ -108,8 +103,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -123,25 +118,25 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="⏱"
+                                android:text="@string/label_waktu_icon"
                                 android:textSize="24sp"/>
                             <TextView
                                 android:id="@+id/tvTime"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="30m"
+                                android:text="@string/label_waktu_default"
                                 android:textSize="13sp"
                                 android:textStyle="bold"
-                                android:textColor="#1A1A1A"
+                                android:textColor="?attr/colorOnSurface"
                                 android:layout_marginTop="4dp"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Waktu"
-                                android:textSize="10sp"
-                                android:textColor="#888888"/>
+                                android:text="@string/label_waktu"
+                                android:textSize="11sp"
+                                android:textColor="?attr/colorOnSurface"
+                                android:alpha="0.5"/>
                         </LinearLayout>
-
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -155,27 +150,27 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="🍽️"
+                                android:text="@string/label_porsi_icon"
                                 android:textSize="24sp"/>
                             <TextView
                                 android:id="@+id/tvServings"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="4 porsi"
+                                android:text="@string/label_porsi_default"
                                 android:textSize="13sp"
                                 android:textStyle="bold"
-                                android:textColor="#1A1A1A"
+                                android:textColor="?attr/colorOnSurface"
                                 android:gravity="center"
                                 android:layout_marginTop="4dp"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Porsi"
-                                android:textSize="10sp"
-                                android:textColor="#888888"/>
+                                android:text="@string/label_porsi"
+                                android:textSize="11sp"
+                                android:textColor="?attr/colorOnSurface"
+                                android:alpha="0.5"/>
                         </LinearLayout>
 
-                        <!-- Rating -->
                         <LinearLayout
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -188,27 +183,27 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="⭐"
+                                android:text="@string/label_rating_icon"
                                 android:textSize="24sp"/>
                             <TextView
                                 android:id="@+id/tvRating"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="4.5"
+                                android:text="@string/label_rating_default"
                                 android:textSize="13sp"
                                 android:textStyle="bold"
-                                android:textColor="#1A1A1A"
+                                android:textColor="?attr/colorOnSurface"
                                 android:layout_marginTop="4dp"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Rating"
-                                android:textSize="10sp"
-                                android:textColor="#888888"/>
+                                android:text="@string/label_rating"
+                                android:textSize="11sp"
+                                android:textColor="?attr/colorOnSurface"
+                                android:alpha="0.5"/>
                         </LinearLayout>
 
                     </LinearLayout>
-
 
                     <TextView
                         android:id="@+id/tvDescription"
@@ -216,14 +211,15 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:textSize="14sp"
-                        android:textColor="#555555"
+                        android:textColor="?attr/colorOnSurface"
+                        android:alpha="0.8"
                         android:lineSpacingExtra="4dp"
                         android:visibility="gone"/>
 
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Card: Nilai Gizi -->
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/layoutNutrition"
                 android:layout_width="match_parent"
@@ -232,7 +228,7 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="6dp"
-                app:cardBackgroundColor="@android:color/white"
+                app:cardBackgroundColor="?attr/colorSurface"
                 android:visibility="gone">
 
                 <LinearLayout
@@ -244,11 +240,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="🥗 Nilai Gizi"
+                        android:text="@string/label_nilai_gizi"
                         android:textSize="17sp"
                         android:textStyle="bold"
-                        android:textColor="#1A1A1A"/>
-
+                        android:textColor="?attr/colorOnSurface"/>
 
                     <View
                         android:layout_width="48dp"
@@ -261,8 +256,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -277,25 +272,26 @@
                                 android:id="@+id/tvCalories"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="0"
+                                android:text="@string/label_kalori_default"
                                 android:textStyle="bold"
                                 android:textSize="16sp"
                                 android:textColor="?attr/colorPrimary"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Kalori"
-                                android:textSize="10sp"
-                                android:textColor="#888888"
+                                android:text="@string/label_kalori"
+                                android:textSize="11sp"
+                                android:textColor="?attr/colorOnSurface"
+                                android:alpha="0.5"
                                 android:layout_marginTop="2dp"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="kcal"
-                                android:textSize="9sp"
-                                android:textColor="#AAAAAA"/>
+                                android:text="@string/label_kcal"
+                                android:textSize="11sp"
+                                android:textColor="?attr/colorOnSurface"
+                                android:alpha="0.4"/>
                         </LinearLayout>
-
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -310,19 +306,19 @@
                                 android:id="@+id/tvProtein"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="0g"
+                                android:text="@string/label_protein_default"
                                 android:textStyle="bold"
                                 android:textSize="16sp"
                                 android:textColor="?attr/colorPrimary"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Protein"
-                                android:textSize="10sp"
-                                android:textColor="#888888"
+                                android:text="@string/label_protein"
+                                android:textSize="11sp"
+                                android:textColor="?attr/colorOnSurface"
+                                android:alpha="0.5"
                                 android:layout_marginTop="2dp"/>
                         </LinearLayout>
-
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -337,19 +333,19 @@
                                 android:id="@+id/tvFat"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="0g"
+                                android:text="@string/label_lemak_default"
                                 android:textStyle="bold"
                                 android:textSize="16sp"
                                 android:textColor="?attr/colorPrimary"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Lemak"
-                                android:textSize="10sp"
-                                android:textColor="#888888"
+                                android:text="@string/label_lemak"
+                                android:textSize="11sp"
+                                android:textColor="?attr/colorOnSurface"
+                                android:alpha="0.5"
                                 android:layout_marginTop="2dp"/>
                         </LinearLayout>
-
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -364,16 +360,17 @@
                                 android:id="@+id/tvCarbs"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="0g"
+                                android:text="@string/label_karbo_default"
                                 android:textStyle="bold"
                                 android:textSize="16sp"
                                 android:textColor="?attr/colorPrimary"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Karbo"
-                                android:textSize="10sp"
-                                android:textColor="#888888"
+                                android:text="@string/label_karbo"
+                                android:textSize="11sp"
+                                android:textColor="?attr/colorOnSurface"
+                                android:alpha="0.5"
                                 android:layout_marginTop="2dp"/>
                         </LinearLayout>
 
@@ -389,7 +386,7 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="6dp"
-                app:cardBackgroundColor="@android:color/white">
+                app:cardBackgroundColor="?attr/colorSurface">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -400,10 +397,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="🧾 Bahan-bahan"
+                        android:text="@string/label_bahan_bahan"
                         android:textSize="17sp"
                         android:textStyle="bold"
-                        android:textColor="#1A1A1A"/>
+                        android:textColor="?attr/colorOnSurface"/>
 
                     <View
                         android:layout_width="48dp"
@@ -418,7 +415,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="14sp"
-                        android:textColor="#333333"
+                        android:textColor="?attr/colorOnSurface"
+                        android:alpha="0.85"
                         android:lineSpacingExtra="6dp"/>
 
                 </LinearLayout>
@@ -432,7 +430,7 @@
                 android:layout_marginBottom="16dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="6dp"
-                app:cardBackgroundColor="@android:color/white">
+                app:cardBackgroundColor="?attr/colorSurface">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -443,10 +441,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="👨‍🍳 Cara Membuat"
+                        android:text="@string/label_cara_membuat"
                         android:textSize="17sp"
                         android:textStyle="bold"
-                        android:textColor="#1A1A1A"/>
+                        android:textColor="?attr/colorOnSurface"/>
 
                     <View
                         android:layout_width="48dp"
@@ -461,18 +459,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="14sp"
-                        android:textColor="#333333"
+                        android:textColor="?attr/colorOnSurface"
+                        android:alpha="0.85"
                         android:lineSpacingExtra="8dp"/>
 
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-
-
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
-    <!-- Loading -->
+
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
@@ -480,7 +477,6 @@
         android:layout_gravity="center"
         android:visibility="gone"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
-
 
     <LinearLayout
         android:id="@+id/layoutError"
@@ -496,7 +492,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="😕"
+            android:text="@string/error_icon"
             android:textSize="48sp"
             android:layout_marginBottom="8dp"/>
 
@@ -504,7 +500,7 @@
             android:id="@+id/tvError"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gagal memuat detail resep"
+            android:text="@string/error_gagal_memuat"
             android:textSize="15sp"
             android:gravity="center"
             android:textColor="#D32F2F"/>
@@ -514,10 +510,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Coba Lagi"/>
+            android:text="@string/retry"/>
 
     </LinearLayout>
-
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabFavorite"
@@ -527,6 +522,6 @@
         android:layout_margin="16dp"
         android:src="@drawable/ic_favorite_border"
         app:tint="@color/white"
-        android:contentDescription="Tambah ke favorit"/>
+        android:contentDescription="@string/desc_tambah_favorit"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

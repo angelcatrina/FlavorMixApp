@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FlavorMix</string>
+
+    <!-- Navigation -->
     <string name="nav_home">Beranda</string>
     <string name="nav_search">Cari</string>
     <string name="nav_favorite">Favorit</string>
+
+    <!-- General -->
     <string name="retry">Coba Lagi</string>
     <string name="no_internet">Tidak ada koneksi internet</string>
     <string name="offline_mode">Mode offline – data dari cache</string>
     <string name="added_to_favorite">Ditambahkan ke favorit</string>
     <string name="removed_from_favorite">Dihapus dari favorit</string>
+
+    <!-- Detail Recipe Screen -->
+    <string name="label_judul_resep">Judul Resep</string>
+    <string name="label_waktu_icon">⏱</string>
+    <string name="label_waktu_default">30m</string>
+    <string name="label_waktu">Waktu</string>
+    <string name="label_porsi_icon">🍽️</string>
+    <string name="label_porsi_default">4 porsi</string>
+    <string name="label_porsi">Porsi</string>
+    <string name="label_rating_icon">⭐</string>
+    <string name="label_rating_default">4.5</string>
+    <string name="label_rating">Rating</string>
+    <string name="label_nilai_gizi">🥗 Nilai Gizi</string>
+    <string name="label_kalori_default">0</string>
+    <string name="label_kalori">Kalori</string>
+    <string name="label_kcal">kcal</string>
+    <string name="label_protein_default">0g</string>
+    <string name="label_protein">Protein</string>
+    <string name="label_lemak_default">0g</string>
+    <string name="label_lemak">Lemak</string>
+    <string name="label_karbo_default">0g</string>
+    <string name="label_karbo">Karbo</string>
+    <string name="label_bahan_bahan">🧾 Bahan-bahan</string>
+    <string name="label_cara_membuat">👨‍🍳 Cara Membuat</string>
+    <string name="error_icon">😕</string>
+    <string name="error_gagal_memuat">Gagal memuat detail resep</string>
+    <string name="desc_hero_image">Gambar resep</string>
+    <string name="desc_tambah_favorit">Tambah ke favorit</string>
 </resources>

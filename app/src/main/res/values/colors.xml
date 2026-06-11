@@ -13,4 +13,7 @@
     <color name="gray">#9E9E9E</color>
 
     <color name="error">#B00020</color>
+
+
+    <color name="navBackground">#FFFFFF</color>
 </resources>

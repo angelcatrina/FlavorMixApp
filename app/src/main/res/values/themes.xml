@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<resources>
-    <style name="Theme.YumRecipe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.YumRecipe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorSecondary">@color/colorSecondary</item>
         <item name="colorOnSecondary">@color/white</item>
 
-
         <item name="android:colorBackground">@color/background</item>
-        <item name="colorSurface">@color/white</item>
-        <item name="colorOnSurface">@color/textPrimary</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#1A1A1A</item>
 
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
