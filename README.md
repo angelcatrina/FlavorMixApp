@@ -7,7 +7,7 @@ Aplikasi resep masakan Android yang memungkinkan pengguna mencari, menjelajahi, 
 
 | Beranda | Detail | Pencarian | Favorit |
 |--------|---------|-----------|--------|
-| ![Beranda](screenshots/splash.png) | ![Detail](screenshots/home.png) | ![Pencarian](screenshots/search.png) | ![Favorit](screenshots/detail.png) |
+| ![Beranda](tampilan/home.png) | ![Detail](tampilan/detail.png) | ![Pencarian](tampilan/search.png) | ![Favorit](tampilan/favorit.png) |
 
 ---
 
