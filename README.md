@@ -54,12 +54,7 @@ Aplikasi resep masakan Android yang memungkinkan pengguna mencari, menjelajahi, 
 
 ## 🌐 API
 
-**Tasty API** — [https://tasty.p.rapidapi.com](https://tasty.p.rapidapi.com)
-
-- Endpoint daftar resep: `GET /recipes/list?from=0&size=20&q={keyword}`
-- Endpoint detail resep: `GET /recipes/detail?id={id}`
-
-> Daftarkan akun di [RapidAPI](https://rapidapi.com) untuk mendapatkan API Key.
+**Tasty API** — [https://tasty.p.rapidapi.com](https://tasty.p.rapidapi.com) 
 
 ---
 
@@ -96,6 +91,7 @@ FlavorMix/
 │       │   ├── activity_main.xml
 │       │   ├── activity_splash.xml
 │       │   ├── activity_recipe_detail.xml
+│       │   ├── activity_favorite.xml
 │       │   ├── fragment_home.xml
 │       │   ├── fragment_search.xml
 │       │   ├── fragment_favorite.xml
@@ -122,7 +118,7 @@ FlavorMix/
 
 ### Cara 1 — Via APK (Mudah)
 
-1. Buka halaman **Releases** di GitHub
+1. Buka halaman **Releases** di GitHub 
 2. Klik file `app-debug.apk` → otomatis download
 3. Pindahkan file APK ke HP Android
 4. Aktifkan **Install from unknown sources**: Pengaturan → Keamanan → Install from unknown sources → **ON**
@@ -186,8 +182,8 @@ FlavorMix/
 
 | | |
 |---|---|
-| **Nama** | [Nama Kamu] |
-| **Tema** | Hobby — Cooking & Recipe |
+| **Nama** | Angel Catrina Sobbu |
+| **Tema** | Food & Drink |
 | **API** | Tasty API (RapidAPI) |
 | **Tahun** | 2026 |
 
@@ -197,4 +193,3 @@ FlavorMix/
 
 Project ini dibuat untuk keperluan **Tugas Final Lab Mobile 2026**
 
-Copyright © 2026 FlavorMix — Licensed under the MIT License
