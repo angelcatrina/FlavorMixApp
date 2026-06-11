@@ -1,20 +1,8 @@
 # 🍳 FlavorMix
 **FlavorMix** adalah aplikasi resep masakan Android yang memungkinkan pengguna untuk mencari, menjelajahi, dan menyimpan resep favorit mereka. Aplikasi ini menggunakan API Tasty untuk menampilkan ribuan resep lezat dari seluruh dunia.
-
 ---
 
-## ✨ Fitur Utama
-
-- 🏠 **Beranda** — Tampilan resep populer dengan kategori (All, Breakfast, Lunch, Dinner, Dessert)
-- 🔍 **Pencarian** — Cari resep dengan filter waktu (< 20 menit) dan rating tertinggi
-- ❤️ **Favorit** — Simpan resep favorit secara lokal menggunakan SQLite
-- 🌙 **Dark Mode** — Mendukung tampilan gelap dan terang
-- 📶 **Offline Mode** — Data tersimpan di cache saat tidak ada koneksi internet
-- 📋 **Detail Resep** — Informasi lengkap: bahan, cara membuat, nilai gizi, rating
-
----
-
-## 📸 Screenshot
+## Tampilan Aplikasi
 
 | Splash | Beranda | Pencarian | Detail Resep | Favorit |
 |--------|---------|-----------|--------------|---------|
